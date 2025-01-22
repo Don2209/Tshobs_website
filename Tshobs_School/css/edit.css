@@ -1,0 +1,9 @@
+.image-size{
+    width: 30%;
+    height: 50%;
+}
+.about-image{
+    width: 69%;
+    height: 3%;
+    display: flex;
+}
