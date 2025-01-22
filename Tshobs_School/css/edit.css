@@ -7,3 +7,32 @@
     height: 3%;
     display: flex;
 }
+
+/*General logo styling */
+.adapt{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/*Adjust logo size on smaller screens*/
+@media (max-width: 768px){
+    .adapt{
+        max-width: 70%;/*Scale down for tablets and small screens */
+    }
+}
+
+@media(max-width: 480px){
+    .logo{
+        max-width: 50%; /*Scale further down for mobile devices*/
+    }
+}
+.reduced_sizes{
+    width: 600px; /*scale down to 50% of the prarent container*/
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
